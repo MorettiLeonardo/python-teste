@@ -1,5 +1,5 @@
 import unittest
-from calculadora import soma, subtrai
+from src.calculadora import soma, subtrai
 
 
 class TestCalculadora(unittest.TestCase):
@@ -57,4 +57,5 @@ class TestCalculadora(unittest.TestCase):
             subtrai(5, "10")
 
 
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)

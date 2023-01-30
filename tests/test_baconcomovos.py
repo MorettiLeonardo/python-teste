@@ -27,7 +27,7 @@ Parte 3 -> Melhorar meu código
     Ovos
 """
 import unittest
-from baconcomovos import bacon_com_ovos
+from src.baconcomovos import bacon_com_ovos
 
 
 class TestBaconComOvos(unittest.TestCase):
@@ -68,4 +68,5 @@ class TestBaconComOvos(unittest.TestCase):
                 self.assertEqual(bacon_com_ovos(entrada), saida)
 
 
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
